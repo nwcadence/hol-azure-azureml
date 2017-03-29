@@ -1,6 +1,8 @@
 # Azure Machine Learning Hands On Labs
 
-This content is designed for audience without any or limited Machine learning knowledge. Thanks feedback to make this content better. 
+This content is designed for audience without any or limited Machine learning knowledge. Thanks feedback to make this content better. To complete these labs from end to end you will need:  
+* [Azure Machine Workspace](https://azure.microsoft.com/en-us/services/machine-learning/)   
+* Visual Studio 2017 (or 2015) - optional
 
 1. [The Basics of Azure Machine Learning](./AzureML-Experiment/AzureML-Experiment.md)  
     * Overview
