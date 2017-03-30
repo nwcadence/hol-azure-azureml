@@ -10,13 +10,13 @@ This lab aims to demonstrate how to train an Azure Machine Learning model, publi
 In this session we will develop a Machine Learning experiment to create a Machine Learning model. We will train the model with the provided dataset so that it can predict values of interest. These values may or may not be contained in the dataset already. In the dataset we will use, there are x values from 1 to 30 and corresponding ywnoise values (y values with noise). After training the model on the x and y values we will be able to use the model to predict ywnoise values based upon inputed x values.
 
 ### 1.2.1. Upload a dataset  
-1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "raw".
+1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "Raw".  
 ![](./imgs/raw_csv_img.png)
 
-2. Copy and paste the CSV data into excel or notepad.  
+2. Copy and paste the CSV data into notepad.   
 ![](./imgs/highlighted_data.png) 
 
-3.  Save the file as a CSV file. The following snapshot is from notepad. Repeat steps 1-3 for each CSV file.  
+3.  Save the file as a CSV file.  
 ![](./imgs/save_as_csv.png)
 
 
