@@ -72,7 +72,7 @@ To upload the datasets, follow steps 2-4 for each CSV file.
 
 ![](./imgs/4.2.1.i2.png)
 
-4. Navigate to the file "*ratings.csv*". Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
+4. Navigate to the file "*ratings.csv*" (you will need to download the data files from the data [folder](./Data)). Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
 ![](./imgs/8.2.1.i1.png)
 
 ## 1.3. Recommend items to users
