@@ -65,10 +65,10 @@ If you did NOT clone this repository you will need to copy and save the data fil
 1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "raw".
 ![](./imgs/raw_csv_img.png)
 
-2. Copy and paste the CSV data into excel or notepad.  
+2. Copy and paste the CSV data into notepad.  
 ![](./imgs/highlighted_data.png) 
 
-3.  Save the file as a CSV file. The following snapshot is from notepad. Repeat steps 1-3 for each CSV file.  
+3.  Save the file as a CSV file. Repeat steps 1-3 for each CSV file.  
 ![](./imgs/save_as_csv.png)
 
 
