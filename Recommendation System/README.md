@@ -62,7 +62,7 @@ At a minimum, we will need the **ratings table** (*ratings.csv*) to use the Matc
 ### 1.2.1. Upload the Data  
 To upload the datasets, follow steps 2-4 for each CSV file.  
 
-1. Open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)  
+1. Click the following link to open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)  
 
 2. Click **NEW** on the bottom left of the page.  
 
