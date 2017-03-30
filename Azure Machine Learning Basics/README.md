@@ -1,4 +1,4 @@
-# Develop and Consume Azure Machine Learning Models
+# Azure Machine Learning Basics
 
 ## 1.1. Overview
 This lab is a walkthrough demonstrating how to create an Azure Machine Learning experiment, train the machine learningmodel, and integrate it into an application. You will learn how to upload datasets, train a linear regression model, publish the model as a web service, and consume the web service from a sample console application. This application will send input parameters and retrieves predicted results as a JSON output values. 
