@@ -60,19 +60,29 @@ At a minimum, we will need the **ratings table** (*ratings.csv*) to use the Matc
     Note: This is a small dataset used for training purposes only. With larger, more robust datasets the accuracy of the recommendations will improve.
 
 ### 1.2.1. Upload the Data  
-To upload the datasets, follow steps 2-4 for each CSV file.  
+If you did NOT clone this repository you will need to copy and save the data files to your local machine. To copy these files to your machine follow steps 1-3. To upload the datasets to Azure Machine Learning, follow steps 5-7 for each CSV file.  
 
-1. Click the following link to open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)  
+1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "raw".
+![](./imgs/raw_csv_img.png)
 
-2. Click **NEW** on the bottom left of the page.  
+2. Copy and paste the CSV data into excel or notepad.  
+![](./imgs/highlighted_data.png) 
+
+3.  Save the file as a CSV file. The following snapshot is from notepad. Repeat steps 1-3 for each CSV file.  
+![](./imgs/save_as_csv.png)
+
+
+4. Now that you have saved all the CSV files, click the following link to open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)  
+
+5. Click **NEW** on the bottom left of the page.  
 
 ![](./imgs/4.2.1.i1.png)
 
-3. Click **DATASET** and choose **FROM LOCAL FILE**.  
+6. Click **DATASET** and choose **FROM LOCAL FILE**.  
 
 ![](./imgs/4.2.1.i2.png)
 
-4. Navigate to the file "*ratings.csv*" (you will need to download the data files from the data [folder](./Data)). Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
+7. Navigate to the file "*ratings.csv*". Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
 ![](./imgs/8.2.1.i1.png)
 
 ## 1.3. Recommend items to users
