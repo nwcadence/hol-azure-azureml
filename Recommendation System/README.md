@@ -78,7 +78,8 @@ To upload the datasets, follow steps 2-4 for each CSV file.
 ## 1.3. Recommend items to users
 For this lab, we will build a very simple Machine Learning solutions by  skipping things like data manipulation, cleaning, splitting etc.  
 
-1. Create a blank experiment.  
+1. Create a blank experiment by clicking **NEW** in the bottom left corner then "Blank Experiment".
+![](./imgs/1.2.1.i19.png)
 
 2. Build the following workflow by simply drag and dropping modules onto the canvas. 
 * Datasets are located under “Saved Datasets” -> “My Datasets”. 
