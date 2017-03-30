@@ -27,39 +27,42 @@ In this session we will develop a Machine Learning experiment to create a Machin
 ### 1.2.2. Training a model
 For this lab, we will walk through very simple Machine Learning solutions. There are many ways this lab can be extended to support more data manipulation, cleaning, splitting, etc. however we will focus on the fundamentals.  
 
-1. Create a blank experiment in Azure Machine Learning Studio. From the module toolbox, under **Saved Datasets**, drag and drop the dataset “*linoise.csv*” that we just uploaded from “**Saved Datasets**” **->** “**My Datasets**”.  
+1. Create a blank experiment in Azure Machine Learning Studio.  
+![](./imgs/1.2.1.i19.png)
+
+2. From the module toolbox, under **Saved Datasets**, drag and drop the dataset “*linoise.csv*” that we just uploaded from “**Saved Datasets**” **->** “**My Datasets**”.  
 
 ![](./imgs/4.2.i001.png)  
 
-2. From the module toolbox, drag and drop a *Linear Regression* module that is under the “**Machine Learning**" **->** "**Initialize Model**" **->** "**Linear Regression**” node path.
+3. From the module toolbox, drag and drop a *Linear Regression* module that is under the “**Machine Learning**" **->** "**Initialize Model**" **->** "**Linear Regression**” node path.
 
 ![](./imgs/4.2.i002.png)  
 
-3. From the module toolbox, drag and drop a *Train Model* module that is under the “**Machine Learning**” **->** “**Train**” node path.
+4. From the module toolbox, drag and drop a *Train Model* module that is under the “**Machine Learning**” **->** “**Train**” node path.
 
 ![](./imgs/4.2.i003.png)  
 
-4. Click on the output port of the *Linear Regression* module then drag the cursor a little bit to see the possible input ports. Acceptable input ports of any available module become green; non-acceptable input ports become red. Note, there is no color change on the output ports of *linoise.csv* and *Train Model* module’s output ports because they don’t accept any input.
+5. Click on the output port of the *Linear Regression* module then drag the cursor a little bit to see the possible input ports. Acceptable input ports of any available module become green; non-acceptable input ports become red. Note, there is no color change on the output ports of *linoise.csv* and *Train Model* module’s output ports because they don’t accept any input.
 
 ![](./imgs/4.2.i004_1.png) ![](./imgs/4.2.i004_2.png)  
 
-5. As mentioned in the previous step, every input port has a specific input type so it is not possible to connect modules that are incompatible. Once you complete the connections, the experiment should look like the image below. Note, the *Train Model* module has a warning icon stating that a value is required.
+6. As mentioned in the previous step, every input port has a specific input type so it is not possible to connect modules that are incompatible. Once you complete the connections, the experiment should look like the image below. Note, the *Train Model* module has a warning icon stating that a value is required.
 
 ![](./imgs/4.2.i005.png)  
 
-6. Click the *Train Model* module then in the properties window, click on the “**Launch column selector**” button.
+7. Click the *Train Model* module then in the properties window, click on the “**Launch column selector**” button.
 
 ![](./imgs/4.2.i006.png)  
 
-7. In the pop-up window, select the *ywnoise* column as the label column then press the checkmark button on the bottom right corner. This instructs the model to learn to predict the *ywnoise* column.  
+8. In the pop-up window, select the *ywnoise* column as the label column then press the checkmark button on the bottom right corner. This instructs the model to learn to predict the *ywnoise* column.  
 
 ![](./imgs/4.2.i007.png)  
 
-8. The final step is to **RUN** the experiment so the data will flow through the modules to train the machine learning model. After clicking the **RUN** button, wait for a few seconds while execution completes. Execution of any experiment will complete with either success or an error. After the model has completed you should see a “*Finished Running*” message with a green checkmark on the top right corner of the experiment canvas.  
+9. The final step is to **RUN** the experiment so the data will flow through the modules to train the machine learning model. After clicking the **RUN** button, wait for a few seconds while execution completes. Execution of any experiment will complete with either success or an error. After the model has completed you should see a “*Finished Running*” message with a green checkmark on the top right corner of the experiment canvas.  
 
 ![](./imgs/4.2.i008.png)  
 
-9. After a successful execution, you can click on the output ports of the modules and visualize the output data, but they may not make much sense because the outputs here are statistical model training related parameters. To benefit from this “run” or trained model/experiment, we need to publish it as a web service. This will create public input and output ports that we can connect to. As we will see, we can consume the service by sending inputs (in this case “*x*” values) and get corresponding output (“*ywnoise*”) values through an application.  
+10. After a successful execution, you can click on the output ports of the modules and visualize the output data, but they may not make much sense because the outputs here are statistical model training related parameters. To benefit from this “run” or trained model/experiment, we need to publish it as a web service. This will create public input and output ports that we can connect to. As we will see, we can consume the service by sending inputs (in this case “*x*” values) and get corresponding output (“*ywnoise*”) values through an application.  
 
 ### 1.2.3. Publishing a trained model as web service
 1. In order to continue, you must complete a successful *RUN* of the experiment resulting in a “*Finished running*” notification with a green checkmark.  
