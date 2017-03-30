@@ -1,7 +1,7 @@
 # Azure Machine Learning Basics
 
 ## 1.1. Overview
-This lab is a walkthrough demonstrating how to create an Azure Machine Learning experiment, train the machine learningmodel, and integrate it into an application. You will learn how to upload datasets, train a linear regression model, publish the model as a web service, and consume the web service from a sample console application. This application will send input parameters and retrieves predicted results as a JSON output values. 
+This lab is a walkthrough demonstrating how to create an Azure Machine Learning experiment, train the machine learning model, and integrate it into an application. You will learn how to upload datasets, train a linear regression model, publish the model as a web service, and consume the web service from a sample console application. This application will send input parameters and retrieves predicted results as a JSON output values. 
 
 ### 1.1.1. Objectives
 This lab aims to demonstrate how to train an Azure Machine Learning model, publish it as a web service and consume it in a console application.    
@@ -70,9 +70,9 @@ For this lab, we will walk through very simple Machine Learning solutions. There
 
 ![](./imgs/4.2.i010.png)  
 
-4. Before continuing, we will change the experiment's name in order to make the titles easier to read throughout this process. Lets give it the name “*MLBasics*” by double clicking the title and editing it.
+4. It's worth noting that we can optionally change the experiment's name by double clicking the title and editing it.
 
-5. On this new predictive experiment tab, you will notice some modules were remove and the following four modules were added:  
+5. On this new predictive experiment tab, you will notice some modules were removed and the following four modules were added:  
     -	*Experiment created on...* module
     -	*Score Model* module
     -	*Web service input* module
