@@ -60,17 +60,19 @@ At a minimum, we will need the **ratings table** (*ratings.csv*) to use the Matc
     Note: This is a small dataset used for training purposes only. With larger, more robust datasets the accuracy of the recommendations will improve.
 
 ### 1.2.1. Upload the Data  
-To upload the datasets, follow steps 1-3 for each CSV file.  
+To upload the datasets, follow steps 2-4 for each CSV file.  
 
-1. Click **NEW** on the bottom left of the page.  
+1. Open up your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)
+
+2. Click **NEW** on the bottom left of the page.  
 
 ![](./imgs/4.2.1.i1.png)
 
-2. Click **DATASET** and choose **FROM LOCAL FILE**.  
+3. Click **DATASET** and choose **FROM LOCAL FILE**.  
 
 ![](./imgs/4.2.1.i2.png)
 
-3. Navigate to the file "*ratings.csv*". Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
+4. Navigate to the file "*ratings.csv*". Feel free to change the name of the dataset or enter a description if you'd like. Then click the *checkmark* button on the bottom right corner to upload the file.   
 ![](./imgs/8.2.1.i1.png)
 
 ## 1.3. Recommend items to users
