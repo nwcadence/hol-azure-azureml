@@ -9,16 +9,18 @@ This lab aims to demonstrate how to train an Azure Machine Learning model, publi
 ## 1.2. Working with Azure Machine Learning Models
 In this session we will develop a Machine Learning experiment to create a Machine Learning model. We will train the model with the provided dataset so that it can predict values of interest. These values may or may not be contained in the dataset already. In the dataset we will use, there are x values from 1 to 30 and corresponding ywnoise values (y values with noise). After training the model on the x and y values we will be able to use the model to predict ywnoise values based upon inputed x values.
 
-### 1.2.1. Upload a dataset
-1. Click **NEW** on the bottom left of the page. 
+### 1.2.1. Upload a dataset  
+1. Open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)  
+
+2. Click **NEW** on the bottom left of the page. 
 
 ![](./imgs/4.2.1.i1.png)
 
-2. Click **DATASET** then choose **FROM LOCAL VALUE**.
+3. Click **DATASET** then choose **FROM LOCAL VALUE**.
 
 ![](./imgs/4.2.1.i2.png)
 
-3. Navigate to the the file "*linoise.csv*". Feel free to change the name of the dataset or enter a description. Then click the checkmark button on the bottom right corner to upload the file.
+4. Navigate to the the file "*linoise.csv*". Feel free to change the name of the dataset or enter a description. Then click the checkmark button on the bottom right corner to upload the file.
 
 ![](./imgs/4.2.1.i3.png)
 
