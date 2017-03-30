@@ -20,7 +20,7 @@ In this session we will develop a Machine Learning experiment to create a Machin
 ![](./imgs/save_as_csv.png)
 
 
-4. Now that you have saved all the CSV files, click the following link to open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)   
+4. Now that you have saved the CSV file, click the following link to open your [Azure Machine Learning Workspace.](https://studio.azureml.net/?selectAccess=true&o=1)   
 
 5. Click **NEW** on the bottom left of the page. 
 
