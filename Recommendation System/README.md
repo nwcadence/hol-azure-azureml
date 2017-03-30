@@ -62,7 +62,7 @@ At a minimum, we will need the **ratings table** (*ratings.csv*) to use the Matc
 ### 1.2.1. Upload the Data  
 If you did NOT clone this repository you will need to copy and save the data files to your local machine. To copy these files to your machine follow steps 1-3. To upload the datasets to Azure Machine Learning, follow steps 5-7 for each CSV file.  
 
-1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "raw".
+1.  Navigate to the data file in the [data folder](./Data). Click on the csv then click "Raw".
 ![](./imgs/raw_csv_img.png)
 
 2. Copy and paste the CSV data into notepad.  
