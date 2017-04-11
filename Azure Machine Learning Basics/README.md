@@ -4,7 +4,7 @@
 This lab is a walkthrough demonstrating how to create an Azure Machine Learning experiment, train the machine learning model, and integrate it into an application. You will learn how to upload datasets, train a linear regression model, publish the model as a web service, and consume the web service from a sample console application. This application will send input parameters and retrieve predicted results as JSON output values. 
 
 ### 1.1.1. Objectives
-This lab aims to demonstrate how to train an Azure Machine Learning model, publish it as a web service and consume it in a console application.    
+This lab aims to demonstrate how to train an Azure Machine Learning model, publish it as a web service, and consume it though a console application.    
 
 ## 1.2. Working with Azure Machine Learning Models
 In this session we will develop a Machine Learning experiment to create a Machine Learning model. We will train the model with the provided dataset so that it can predict values of interest. These values may or may not be contained in the dataset already. In the dataset we will use, there are x values from 1 to 30 and corresponding ywnoise values (y values with noise). After training the model on the x and y values we will be able to use the model to predict ywnoise values based upon inputed x values.
