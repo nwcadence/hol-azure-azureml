@@ -26,7 +26,7 @@ In this session we will develop a Machine Learning experiment to create a Machin
 
 ![](./imgs/4.2.1.i1.png)
 
-6. Click **DATASET** then choose **FROM LOCAL VALUE**.
+6. Click **DATASET** then choose **FROM LOCAL FILE**.
 
 ![](./imgs/4.2.1.i2.png)
 
